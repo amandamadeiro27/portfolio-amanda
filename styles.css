@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    text-align: center;  /* para alinhar o texto no centro */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* cor de fundo */
+    color: #333; /* cor do texto */
+}
+
+header {
+    background-color: #B0E0E6; /* cor de fundo */
+    color: #1C1C1C; /* cor do texto */
+    padding: 10px 0;
+    text-align: center; /* para alinhar o texto no centro */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    color: #778899;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+    color: #778899;
+}
+
+nav ul li a {
+    color: #778899;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    text-align: center; /* para alinhar o texto no centro */
+    padding: 10px;
+    background-color: #D2B48C; /* cor de fundo */
+    color: #1C1C1C; /* cor do texto */
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+form {
+    max-width: 600px;  /* largura do quadro de fundo */
+    margin: 30px auto;  /* centraliza o formulário na página */
+    padding: 20px;  /* espaçamento */
+    background-color: #f9f9f9;  /* cor de fundo do quadro */
+    border: 1px solid #ddd;  /* borda leve */
+    border-radius: 8px;  /* cantos arredondados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* sombra */
+}
+
+form input, form textarea {
+    width: 70%;  /* ocupa 70% da largura do quadro */
+    padding: 10px;  /* espaçamento */
+    margin-bottom: 8px;   /* espaço abaixo de cada campo */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;  /* tamanho do texto */
+}
+
+form button {
+    display: block;
+    margin: 0px auto;
+    width: 20%;   /* tamanho do botão */
+    padding: 10px;
+    background-color: #B0E0E6;  /* cor do botão combinando com a cor do cabeçalho */
+    color: #1C1C1C;
+    border: none;   /* remove a borda padrão */
+    border-radius: 4px;
+    font-size: 16px;  /* tamanho do texto */
+    font-weight: bold;  /* texto em negrito */
+    cursor: pointer;   /* cursor de "mão" ao passar por cima */
+}
